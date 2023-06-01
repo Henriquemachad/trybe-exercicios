@@ -1,3 +1,61 @@
+                       ///Desafios5///
+//let n = 5;
+//let symbol = '*';
+//let inputLine = '';
+//let inputPosition = n - 1;
+//for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
+  //for (let columnIndex = 0; columnIndex < n; columnIndex += 1) {
+    //if (columnIndex < inputPosition) {
+      //inputLine = inputLine + ' ';
+    //} else {
+      //inputLine = inputLine + symbol;
+    //}
+  //}
+  //console.log(inputLine);
+  //inputLine = '';
+  //inputPosition -= 1;
+//};
+
+                       ///Desafios4///
+//let size = 5;
+//let symbol = '*';
+//let inputLine = '';
+//for (let lineIndex = 0; lineIndex <= size; lineIndex += 1) {
+  //inputLine = inputLine + symbol;
+  //console.log(inputLine);
+//};
+
+                       ///Desafios3///
+//let n = 5;
+//let symbol = '*';
+//let inputLine = '';
+//for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
+  //inputLine = inputLine + symbol;
+//};
+//for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
+  //console.log(inputLine);
+//};
+
+                       ///Desafios2///
+//let word = 'tryber';
+//let reverseWord = '';
+//reverseWord = word.split('').reverse().join('');
+//console.log(reverseWord);
+//let word = 'tryber';
+//let reverseWord = '';
+//for (let index = word.length - 1; index >= 0; index -= 1) {
+  //reverseWord += word[index];
+//};
+//console.log(reverseWord);
+
+                       ///Desafios1///                       
+//let fatorial = 1;
+// Nesse caso vamos começar em 10 e decrementar 1 a cada loop
+//for (let index = 10; index > 0; index -= 1) {
+  //fatorial *= index;
+//};
+//console.log(fatorial);
+
                       /// Exercicíos6///
 //const numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //let result = 0;
