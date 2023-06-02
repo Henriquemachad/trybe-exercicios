@@ -1,4 +1,100 @@
-                       ///Desafios5///
+//const sortNumber = (arrayNumeros) => {
+  //let aux;
+  //for (let index = 0; index < arrayNumeros.length; index += 1) {
+    //for (let indexDeDentro = 1; indexDeDentro < arrayNumeros.length; indexDeDentro += 1) {
+      //if (arrayNumeros[index] > arrayNumeros[indexDeDentro]) {
+       //aux = arrayNumeros[index];
+       //arrayNumeros[index] = arrayNumeros[indexDeDentro];
+       //arrayNumeros[indexDeDentro] = aux;
+      //}
+    //}
+  //}
+//};
+//sortNumber([99, 5, 6, 1, 0])
+
+//const biggerSmallerNumber = (arrayNumber) => {
+  //let bigger = arrayNumber[0];
+  //let smaller = arrayNumber[0];
+
+  //for  (letindex =0; index < arrayNumber.length; index += 1) {
+    //if (arrayNumber[index]> bigger){
+      //bigger = arrayNumber[index];
+    //}  else if(arrayNumber[index] < smaller)
+    //smaller = arrayNumber[index];
+  //}
+//};
+ 
+  //return `Maior: ${bigger}
+    //               Menor: ${smaller}`
+  
+
+///biggerSmallerNumber([0, 34, 56, 100, 2])
+
+// const trybeBankCustomers = ['Oliva', 'Nat', 'Gus'];
+
+// function addCustomers(customers, newCustomers) {
+//   for (let index = 0; index < newCustomers.length; index += 1) {
+//     if (typeof newCustomers[index] === 'string') {
+//       customers.push(newCustomers[index]);
+//     } else {
+//       return 'Todos os valores precisam ser strings.';
+//     }
+//   }
+//return trybeBankCustomers;
+// };
+
+//console.log(addCustomers(trybeBankCustomers, ['Carolina', 'Adamastor'])); // [ 'Oliva', 'Nat', 'Gus', 'Carolina', 'Adamastor' ]
+//console.log(addCustomers(trybeBankCustomers, ['Miranda', 78])); // Todos os valores precisam ser strings.
+
+//const trybeBankCustomers = ['Oliva', 'Nat', 'Gus'];
+//function greetCustomer(customer) {
+  //for (let index = 0; index < customer.length; index += 1) {  // "usando o for para fazer a repetição e falar qual é o proximo nome ou numero"
+    //console.log(`Olá, ${customer[index]}. Essa é sua conta do TrybeBank.`);
+  //}
+//};
+//greetCustomer(trybeBankCustomers);
+
+//const trybeBankCustomers = ['Oliva', 'Nat', 'Gus'];
+//function greetCustomer(customer) {
+  //return `Olá, ${customer}. Essa é sua conta do TrybeBank.`;
+//};
+//console.log(greetCustomer(trybeBankCustomers));
+
+//const balance = 100;
+//function sumBalance(value) { 
+  //return value + balance;     "o return não tem o = para fazer a comparação, é sem o ="
+//}
+//function subBalance(value) {
+  //return balance - value;
+//}
+//function multBalance(value){
+  //return value * balance;
+//}
+//function divBalance(value) {
+  //return balance / value;
+//}
+//console.log(sumBalance(500))
+//console.log(subBalance(40))
+//console.log(multBalance(26))
+//console.log(divBalance(35))
+
+//function sum(num1, num2) { Mesmo caso do que o de baixo mais usado a função const para realizar a soma
+  //return num1 + num2;
+//};
+//const result = sum(10, 8);
+//console.log(result); // 18
+
+//function sum(num1, num2) {  toda vez que precizar chamar uma soma usar o "sum"
+  //return num1 + num2;
+//};
+//console.log(sum(10, 8)); // 18
+
+//function giveGreeting() {
+  //return `Olá, boas-vindas à Trybe!`;
+//};
+//console.log(giveGreeting()); // Olá, boas-vindas à Trybe!
+
+               //Desafios5 JavaScript  Dia 1 de junho  2023///
 //let n = 5;
 //let symbol = '*';
 //let inputLine = '';
